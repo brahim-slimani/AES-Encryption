@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="253.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AES_Package.controllers.Controller">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="69.0" layoutX="-10.0" stroke="DODGERBLUE" strokeType="INSIDE" width="539.0" />
+            <Button layoutX="292.0" layoutY="127.0" mnemonicParsing="false" onAction="#connect" prefHeight="37.0" prefWidth="102.0" text="CONNECT" textFill="#0a87cf">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Button>
+            <Button layoutX="401.0" layoutY="127.0" mnemonicParsing="false" onAction="#exit" prefHeight="37.0" prefWidth="102.0" text="EXIT" textFill="#0a87cf">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Button>
+            <Label layoutX="39.0" layoutY="7.0" prefHeight="80.0" prefWidth="477.0" text="AES Encryption" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="key" layoutX="31.0" layoutY="129.0" onAction="#connect" prefHeight="37.0" prefWidth="248.0" promptText="enter the secret code">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <Label fx:id="lb" layoutX="56.0" layoutY="175.0" prefHeight="48.0" prefWidth="462.0" text="Indication : try '123456'" textFill="#c31a1a">
+         <font>
+            <Font size="13.0" />
+         </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="230.0" prefHeight="19.0" prefWidth="360.0" text="contact us : slimani.ibr@gmail.com/+213 659 58 71 98" />
+         </children>
+      </AnchorPane>

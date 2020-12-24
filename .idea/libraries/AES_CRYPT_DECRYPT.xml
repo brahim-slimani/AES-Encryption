@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AES_CRYPT&amp;DECRYPT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AES_CRYPT&amp;DECRYPT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
